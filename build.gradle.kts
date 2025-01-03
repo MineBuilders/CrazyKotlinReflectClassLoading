@@ -18,6 +18,7 @@ repositories {
 dependencies {
     @Suppress("VulnerableLibrariesLocal", "RedundantSuppression")
     compileOnly(group = "org.allaymc.allay", name = "api", version = "master-SNAPSHOT")
+    implementation(kotlin("reflect"))
 }
 
 kotlin {
